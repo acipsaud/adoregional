@@ -26,11 +26,11 @@ class Dashboard extends CI_Controller {
         $this->load->library(array('pagination','form_validation','upload','session'));
 		// $this->load->model('Modhalaman');	
 
-		$this->load->model('Modauth');
+		// $this->load->model('Modauth');
 		if(!$this->Modauth->current_user()){
 			redirect('auth/login');
 		}
-		// echo $this->modauth->current_user()->username;
+		echo $this->Modauth->current_user()->username;
     }
 
 	public function index()

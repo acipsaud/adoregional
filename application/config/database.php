@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '10.62.164.212',
-	'username' => 'admapp',
-	'password' => '4dm1N4Pp5!!',
+	'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '',
 	'database' => 'ADOreg',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',

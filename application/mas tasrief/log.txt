@@ -1,0 +1,12 @@
+
+1. Controller 
+->Detailado.php
+a. line 375-377 -> prepare data lama untuk log
+b. line 375-377 -> fungsi save log saat edit ado
+c. line 425-426 -> fungsi save log saat input ado
+
+2. Views 
+->sidebar.php
+a. line 118-140 -> tampilan untuk user dan log
+->template.php
+a. line 1244-1362-> Jquery untuk validasi, submit dan sweetalert

@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class User extends CI_Controller
+class Log extends CI_Controller
 {
 
 	/**
@@ -70,8 +70,8 @@ class User extends CI_Controller
 		$dataisi['user_data'] = $this->Moduser->getAll();
 		$dataisi['witel_data'] = $this->Modwitel->getWitel();
 
-
-		$this->template('v_user', $dataisi);
+		$dataisi['log'] = $this->Modlog->getAllLog();
+		$this->template('v_log', $dataisi);
 	}
 
 	public function addUser()
